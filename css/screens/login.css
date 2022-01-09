@@ -1,0 +1,62 @@
+.welcome-header {
+  text-align: center;
+  margin: 90px 0px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.welcome-header__title {
+  font-size: 25px;
+  font-weight: 500;
+}
+
+.welcome-header__text {
+  margin-top: 20px;
+  width: 70%;
+  opacity: 0.7;
+}
+
+.welcome-loginform {
+  display: flex;
+  flex-direction: column;
+  margin: 0px 15px;
+}
+
+.welcome-loginform__input {
+  padding: 15px 0px;
+  border: none;
+  border-bottom: 1px solid var(--main-grey);
+  font-size: 18px;
+  margin-bottom: 20px;
+  transition: border-color 0.3s ease-in-out;
+}
+
+.welcome-loginform__input:not([type="submit"]) {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  transition: border-color 0.3s ease-in-out;
+}
+
+.welcome-loginform__input::placeholder {
+  color: var(--main-grey);
+}
+
+.welcome-loginform__input:focus {
+  border-color: var(--yellow);
+}
+
+.welcome-loginform__button {
+  padding: 15px 0px;
+  border: none;
+  margin-bottom: 15px;
+  background-color: var(--yellow);
+  cursor: pointer;
+  border-radius: 5px;
+}
+
+.welcome-loginform a {
+  text-align: center;
+  text-decoration: none;
+  color: inherit;
+  font-size: 13px;
+}

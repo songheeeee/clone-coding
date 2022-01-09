@@ -1,0 +1,41 @@
+.settings__setting {
+  padding: 20px 0;
+  border-bottom: var(--main-border);
+  font-size: 18px;
+  display: flex;
+  align-items: center;
+
+  justify-content: space-between;
+}
+
+.settings__setting i {
+  margin-right: 20px;
+  font-size: 22px;
+  opacity: 0.9;
+}
+
+.settings__setting-column:last-child {
+  font-size: 17px;
+  font-weight: 600;
+  color: var(--main-grey);
+  opacity: 0.8;
+}
+
+.settings__setting-column {
+  position: relative;
+}
+
+.settings__setting-column-new {
+  background-color: tomato;
+  height: 15px;
+  width: 15px;
+  color: white;
+  font-weight: 600;
+  font-size: x-small;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  left: 145px;
+}
